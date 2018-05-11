@@ -1,0 +1,15 @@
+C:/intelFPGA_pro/17.1/jk_ff_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/jk_ff_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module jk_ff
+
+Top level modules:
+	jk_ff
+
+} {} {}} C:/intelFPGA_pro/17.1/tb_jk_ff_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/tb_jk_ff_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module tb_jk_ff_v
+
+Top level modules:
+	tb_jk_ff_v
+
+} {} {}}

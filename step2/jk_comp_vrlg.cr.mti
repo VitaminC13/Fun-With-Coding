@@ -1,0 +1,29 @@
+C:/intelFPGA_pro/17.1/jk_comp_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/jk_comp_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module jk_comp_v
+
+Top level modules:
+	jk_comp_v
+
+} {} {}} C:/intelFPGA_pro/17.1/tb_jk_comp_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/tb_jk_comp_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module tb_jk_comp_v
+
+Top level modules:
+	tb_jk_comp_v
+
+} {} {}} C:/intelFPGA_pro/17.1/nnd2_v.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/nnd2_v.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module nnd2_v
+
+Top level modules:
+	nnd2_v
+
+} {} {}} C:/intelFPGA_pro/17.1/nnd3_v.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/nnd3_v.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module nnd3_v
+
+Top level modules:
+	nnd3_v
+
+} {} {}}

@@ -1,0 +1,15 @@
+C:/intelFPGA_pro/17.1/tb_uni_shift_reg_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/tb_uni_shift_reg_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module tb_uni_shift_reg_v
+
+Top level modules:
+	tb_uni_shift_reg_v
+
+} {} {}} C:/intelFPGA_pro/17.1/uni_shift_reg_vrlg.v {1 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/uni_shift_reg_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module uni_shift_reg_v
+
+Top level modules:
+	uni_shift_reg_v
+
+} {} {}}

@@ -1,0 +1,44 @@
+`timescale 1ms/1ms
+
+module tb_jk_ff_v;
+
+  parameter t_c = 50;
+
+  wire Q, Qbar;
+
+  reg J, K;
+  reg clk;
+
+  task apply_test ( input J_test, K_test);
+    begin
+      J = J_test;
+      K = K_test;
+      @(posedge clk);
+    end
+  endtask
+
+  jk_ff duv ( .J(J), .K(K), .clk(clk), .Q(Q), .Qbar(Qbar) );
+
+  always begin
+    #(t_c/2)        clk = 1'b1;
+    #(t_c - t_c/2)  clk = 1'b0;
+  end
+
+  initial begin
+    @(posedge clk)
+    apply_test(1'b0, 1'b0);
+    apply_test(1'b0, 1'b1);
+    apply_test(1'b1, 1'b0);
+    apply_test(1'b1, 1'b1);
+    apply_test(1'b0, 1'b0);
+    apply_test(1'b0, 1'b1);
+    apply_test(1'b1, 1'b0);
+    apply_test(1'b1, 1'b1);
+    apply_test(1'b0, 1'b0);
+    apply_test(1'b0, 1'b1);
+    apply_test(1'b1, 1'b0);
+    apply_test(1'b1, 1'b1);
+    $wait;
+  end
+endmodule
+ 

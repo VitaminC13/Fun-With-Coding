@@ -1,0 +1,9 @@
+C:/intelFPGA_pro/17.1/X_system_vrlg.v {0 {vlog -work work -stats=none C:/intelFPGA_pro/17.1/X_system_vrlg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module X_system_v
+** Error: C:/intelFPGA_pro/17.1/X_system_vrlg.v(33): (vlog-2110) Illegal reference to net "tmp".
+** Error: C:/intelFPGA_pro/17.1/X_system_vrlg.v(37): (vlog-2110) Illegal reference to net "tmp".
+** Error: C:/intelFPGA_pro/17.1/X_system_vrlg.v(41): (vlog-2110) Illegal reference to net "tmp".
+** Error: C:/intelFPGA_pro/17.1/X_system_vrlg.v(45): (vlog-2110) Illegal reference to net "tmp".
+
+} {4.0 8.0} {}}
